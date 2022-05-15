@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main(){
+	int x,ans,i;
+	for (i = 2; i <13; i = i + 2){
+		if (84 % i == 0){
+			x = (i + 168 / i) / 2;
+			ans = x * x - 268;
+			printf("%d \n", ans);
+		}
+	}
+	getchar();
+return 0;
+}
